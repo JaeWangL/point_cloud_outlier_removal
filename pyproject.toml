@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "point_cloud_outlier_removal"
+version = "0.0.1"
+description = "A simple pipeline for removing outliers and evaluating algorithms for point cloud"
+authors = ["JaeWangL <jnso5072@outlook.kr>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+open3d = "^0.12.0"
+numpy = "^1.21"
+laspy = "^2.5.1"
+tqdm = "^4.66.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
